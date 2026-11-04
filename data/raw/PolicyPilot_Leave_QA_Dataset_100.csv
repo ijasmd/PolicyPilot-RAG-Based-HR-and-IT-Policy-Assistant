@@ -1,0 +1,101 @@
+question_id,question,expected_answer,source_policy_id,intent,answerability
+LQ001,How many annual leave days do full-time employees receive?,Full-time employees receive 18 days of annual paid leave per calendar year.,HR-004,leave,answerable
+LQ002,How is annual leave credited?,Annual leave is credited monthly at 1.5 days for each completed month of service.,HR-004,leave,answerable
+LQ003,How many sick leave days are provided each year?,Employees receive 10 days of sick leave per calendar year.,HR-005,leave,answerable
+LQ004,When can I use sick leave?,Sick leave may be used when illness or injury prevents an employee from working.,HR-005,leave,answerable
+LQ005,How many days of casual leave do employees get?,The supplied policy corpus does not specify the casual leave entitlement.,,leave,unanswerable
+LQ006,How early should I apply for one day of planned leave?,"For planned annual or casual leave of 1–2 working days, submit the request at least 3 working days before the leave starts.",HR-001,leave,answerable
+LQ007,How much notice is needed for two days of leave?,Submit the planned leave request at least 3 working days in advance for an absence of 1–2 working days.,HR-001,leave,answerable
+LQ008,I need three consecutive days off. How early should I apply?,The supplied policy corpus does not specify the notice period for planned leave of 3 or more consecutive working days.,,leave,unanswerable
+LQ009,What should I do if I need leave because of an emergency?,Notify your reporting manager as soon as reasonably possible. Record the leave in the HR portal within 2 working days after returning.,HR-003,leave,answerable
+LQ010,Can I take leave first and enter it later in the HR portal?,"For emergency leave, the request must be recorded in the HR portal within 2 working days after returning to work. The policy does not give a general rule for other cases.",HR-003,leave,answerable
+LQ011,What happens if I am sick for more than two consecutive working days?,You must provide a medical certificate to HR within 3 working days after returning to work.,HR-006,leave,answerable
+LQ012,When should I submit my medical certificate after sick leave?,"Submit the medical certificate to HR within 3 working days after returning to work, when the sick leave lasted more than 2 consecutive working days.",HR-006,leave,answerable
+LQ013,Can unused annual leave be carried forward?,Yes. Employees may carry forward up to 5 unused annual leave days into the next calendar year. Any excess expires at year-end.,HR-007,leave,answerable
+LQ014,What happens to annual leave above five days at year-end?,Any unused annual leave balance above 5 days expires at year-end.,HR-007,leave,answerable
+LQ015,Can I carry forward unused sick leave?,The supplied policy corpus does not specify the sick leave carry-forward limit.,,leave,unanswerable
+LQ016,Can I take unpaid leave if my paid leave balance is zero?,Yes. You may request unpaid leave if you have insufficient paid leave. Approval from both your reporting manager and HR is required.,HR-008,leave,answerable
+LQ017,Who needs to approve unpaid leave?,Both the reporting manager and HR must approve the unpaid leave request.,HR-008,leave,answerable
+LQ018,Is unpaid leave automatically approved when I have no leave balance?,No. Unpaid leave requires approval from both the reporting manager and HR.,HR-008,leave,answerable
+LQ019,Does the policy provide maternity leave?,The supplied policy corpus does not contain maternity leave entitlement or duration information.,,leave,unanswerable
+LQ020,How many paternity leave days can I take?,The supplied policy corpus does not specify paternity leave entitlement or duration.,,leave,unanswerable
+LQ021,Can I encash my unused annual leave?,The supplied policy corpus does not specify whether unused annual leave can be encashed. Contact HR for clarification.,,leave,unanswerable
+LQ022,Are public holidays deducted from my leave balance?,The supplied policy corpus does not contain a rule about public holidays being deducted from leave balances.,,leave,unanswerable
+LQ023,I need a day off next week. What should I do?,Submit a planned annual or casual leave request at least 3 working days before the leave starts. Approval requirements should be confirmed with your reporting manager.,HR-001,leave,answerable
+LQ024,My manager has not approved my leave. Can I assume it is accepted?,The supplied leave policy records the notice requirement but does not specify automatic approval. Confirm approval with your reporting manager before taking planned leave.,HR-001,leave,unanswerable
+LQ025,Can I take sick leave for an injury?,Yes. Sick leave may be used when illness or injury prevents you from working.,HR-005,leave,answerable
+LQ026,What is the leave policy for employees on probation?,The supplied policy corpus does not specify leave entitlements or conditions during probation.,,leave,unanswerable
+LQ027,How do I check my remaining leave balance?,The supplied policy corpus does not specify the system or process for checking leave balances.,,leave,unanswerable
+LQ028,Can I cancel leave after it has been approved?,The supplied policy corpus does not specify the leave cancellation process.,,leave,unanswerable
+LQ029,Does the company offer half-day leave?,The supplied policy corpus does not specify whether half-day leave is available.,,leave,unanswerable
+LQ030,I was absent due to an emergency. By when should I update the portal?,Record the emergency leave in the HR portal within 2 working days after returning to work.,HR-003,leave,answerable
+LQ031,How many paid annual leave days do I get in a year?,Full-time employees receive 18 days of annual paid leave per calendar year.,HR-004,leave,answerable
+LQ032,How many days of annual leave do I earn after 4 completed months?,"Annual leave is credited at 1.5 days per completed month of service, so 4 completed months gives 6 days.",HR-004,leave,answerable
+LQ033,How much annual leave is added to my balance each month?,1.5 days of annual leave are credited for each completed month of service.,HR-004,leave,answerable
+LQ034,I joined 6 months ago. How much annual leave have I accrued?,"Leave is credited at 1.5 days per completed month, so 6 completed months gives 9 days.",HR-004,leave,answerable
+LQ035,Is annual leave given all at once at the start of the year?,No. Annual leave is credited monthly at 1.5 days for each completed month of service.,HR-004,leave,answerable
+LQ036,Is annual leave paid or unpaid?,Annual leave is paid leave: full-time employees receive 18 days of annual paid leave per calendar year.,HR-004,leave,answerable
+LQ037,Does a partial month count towards annual leave credit?,The policy credits 1.5 days for each completed month of service. It does not specify credit for partial months.,HR-004,leave,answerable
+LQ038,Do part-time employees get 18 days of annual leave?,The supplied policy corpus does not specify annual leave entitlement for part-time employees; the 18-day entitlement is stated for full-time employees.,HR-004,leave,unanswerable
+LQ039,How many sick days am I entitled to per year?,Employees receive 10 days of sick leave per calendar year.,HR-005,leave,answerable
+LQ040,Is sick leave granted for a physical injury?,Yes. Sick leave may be used when illness or injury prevents an employee from working.,HR-005,leave,answerable
+LQ041,Can I use sick leave if I have a fever and cannot work?,Yes. Sick leave may be used when illness prevents you from working.,HR-005,leave,answerable
+LQ042,Is the sick leave allowance per month or per year?,Sick leave is 10 days per calendar year.,HR-005,leave,answerable
+LQ043,Can I use sick leave to take care of a sick family member?,The supplied policy corpus does not specify whether sick leave can be used to care for family members. It states sick leave is for illness or injury that prevents the employee from working.,HR-005,leave,unanswerable
+LQ044,Is sick leave credited monthly like annual leave?,The supplied policy corpus does not specify how sick leave is credited. It states employees receive 10 days of sick leave per calendar year.,HR-005,leave,unanswerable
+LQ045,How many sick leave days do new joiners get in their first year?,The supplied policy corpus does not specify a prorated sick leave entitlement for new joiners.,,leave,unanswerable
+LQ046,Do I need a medical certificate for one day of sick leave?,The policy requires a medical certificate when sick leave lasts more than 2 consecutive working days. It does not state a certificate requirement for shorter absences.,HR-006,leave,answerable
+LQ047,Is a medical certificate required for a two-day sick absence?,"The requirement applies to sick leave of more than 2 consecutive working days, so a 2-day absence is not covered by that rule.",HR-006,leave,answerable
+LQ048,I was sick for three consecutive working days. What do I need to submit?,You must provide a medical certificate to HR within 3 working days after returning to work.,HR-006,leave,answerable
+LQ049,Who do I send the medical certificate to?,The medical certificate must be provided to HR.,HR-006,leave,answerable
+LQ050,What is the deadline for submitting a medical certificate?,Within 3 working days after returning to work.,HR-006,leave,answerable
+LQ051,I was out sick for 5 days. How long do I have to submit proof?,Provide a medical certificate to HR within 3 working days after returning to work.,HR-006,leave,answerable
+LQ052,What happens if I miss the medical certificate deadline?,The supplied policy corpus does not specify the consequence of missing the medical certificate deadline.,,leave,unanswerable
+LQ053,Which doctors can issue an acceptable medical certificate?,The supplied policy corpus does not specify which doctors or clinics can issue an acceptable medical certificate.,,leave,unanswerable
+LQ054,How many days in advance should I apply for a 2-day planned leave?,Submit the request at least 3 working days before the leave starts for planned leave of 1–2 working days.,HR-001,leave,answerable
+LQ055,What is the notice period for a one-day casual leave?,"For planned annual or casual leave of 1–2 working days, submit the request at least 3 working days before the leave starts.",HR-001,leave,answerable
+LQ056,I want to take annual leave for 2 days. When should I submit the request?,Submit the request at least 3 working days before the leave starts.,HR-001,leave,answerable
+LQ057,Does the 3 working day notice apply to annual leave?,Yes. It applies to planned annual or casual leave of 1–2 working days.,HR-001,leave,answerable
+LQ058,How much notice is needed for a week-long vacation?,The supplied policy corpus does not specify the notice period for planned leave longer than 2 working days.,,leave,unanswerable
+LQ059,How early must I request leave of four consecutive days?,The supplied policy corpus does not specify the notice period for planned leave of 3 or more consecutive working days.,,leave,unanswerable
+LQ060,Is 3 working days' notice counted including weekends?,"The policy specifies 3 working days. It does not address whether weekends or holidays are counted, though working days by definition exclude non-working days.",HR-001,leave,unanswerable
+LQ061,Can the notice requirement be waived by my manager?,The supplied policy corpus does not specify whether a manager can waive the notice requirement.,,leave,unanswerable
+LQ062,What notice do I need to give for sick leave?,"The supplied policy corpus does not specify a notice period for sick leave. For emergencies, the policy requires notifying the reporting manager as soon as reasonably possible.",,leave,unanswerable
+LQ063,Who should I inform first when I have an emergency and cannot come to work?,Notify your reporting manager as soon as reasonably possible.,HR-003,leave,answerable
+LQ064,How quickly must I notify my manager in an emergency?,As soon as reasonably possible.,HR-003,leave,answerable
+LQ065,When do I need to log emergency leave in the HR portal?,Record the leave in the HR portal within 2 working days after returning to work.,HR-003,leave,answerable
+LQ066,I had an emergency yesterday and returned today. Do I still need to apply?,Yes. Record the emergency leave in the HR portal within 2 working days after returning to work.,HR-003,leave,answerable
+LQ067,Do I need to apply in advance for emergency leave?,No advance application is described for emergencies. Notify your reporting manager as soon as reasonably possible and record the leave in the HR portal within 2 working days after returning.,HR-003,leave,answerable
+LQ068,Is emergency leave a separate leave type with its own quota?,The supplied policy corpus does not specify a separate emergency leave quota.,,leave,unanswerable
+LQ069,Which leave balance is deducted for emergency leave?,The supplied policy corpus does not specify which leave balance is deducted for emergency leave.,,leave,unanswerable
+LQ070,Can I call or message my manager for emergency leave?,The policy requires notifying your reporting manager as soon as reasonably possible. It does not specify the channel.,HR-003,leave,answerable
+LQ071,Do I need proof for emergency leave?,The supplied policy corpus does not specify documentation requirements for emergency leave.,,leave,unanswerable
+LQ072,How many annual leave days can I carry into next year?,Up to 5 unused annual leave days can be carried forward into the next calendar year.,HR-007,leave,answerable
+LQ073,I have 8 unused annual leave days at year-end. How many carry over?,Up to 5 days carry forward. The remaining 3 days expire at year-end.,HR-007,leave,answerable
+LQ074,I have 3 unused annual leave days at year-end. Will I lose them?,"No. Up to 5 unused annual leave days may be carried forward, so all 3 carry over.",HR-007,leave,answerable
+LQ075,What happens to my unused annual leave at the end of the calendar year?,Up to 5 days can be carried forward. Any excess expires at year-end.,HR-007,leave,answerable
+LQ076,Is there a cap on annual leave carry forward?,Yes. The cap is 5 unused annual leave days.,HR-007,leave,answerable
+LQ077,"If I have 18 unused annual leave days at year-end, how many do I keep?",Only 5 days may be carried forward; the remaining 13 expire at year-end.,HR-007,leave,answerable
+LQ078,Does carried-forward leave expire later in the next year?,The supplied policy corpus does not specify a separate expiry date for carried-forward leave.,,leave,unanswerable
+LQ079,Can unused casual leave be carried forward?,The supplied policy corpus does not specify casual leave carry-forward rules.,,leave,unanswerable
+LQ080,Will my sick leave expire at the end of the year?,The supplied policy corpus does not specify whether unused sick leave expires or carries forward.,,leave,unanswerable
+LQ081,What can I do if I have run out of paid leave?,You may request unpaid leave if you have insufficient paid leave. Approval from both your reporting manager and HR is required.,HR-008,leave,answerable
+LQ082,Is HR approval needed for unpaid leave?,Yes. Both the reporting manager and HR must approve unpaid leave.,HR-008,leave,answerable
+LQ083,Is my manager's approval alone enough for unpaid leave?,No. Unpaid leave requires approval from both the reporting manager and HR.,HR-008,leave,answerable
+LQ084,Can I apply for unpaid leave while I still have annual leave balance?,The policy permits requesting unpaid leave when paid leave is insufficient. It does not specify whether it can be requested while paid leave remains.,HR-008,leave,unanswerable
+LQ085,What is the maximum duration of unpaid leave?,The supplied policy corpus does not specify a maximum duration for unpaid leave.,,leave,unanswerable
+LQ086,Is my salary deducted during unpaid leave?,The supplied policy corpus does not specify salary treatment during unpaid leave.,,leave,unanswerable
+LQ087,Does unpaid leave affect my annual leave accrual?,The supplied policy corpus does not specify the effect of unpaid leave on leave accrual.,,leave,unanswerable
+LQ088,How many days of bereavement leave are provided?,The supplied policy corpus does not specify bereavement leave entitlement.,,leave,unanswerable
+LQ089,Is there a marriage leave policy?,The supplied policy corpus does not contain marriage leave information.,,leave,unanswerable
+LQ090,Do employees get study or exam leave?,The supplied policy corpus does not specify study or exam leave.,,leave,unanswerable
+LQ091,Can I work from home instead of taking sick leave?,The supplied policy corpus does not specify work-from-home arrangements in place of sick leave.,,leave,unanswerable
+LQ092,Is there compensatory off for working on weekends?,The supplied policy corpus does not specify compensatory time off.,,leave,unanswerable
+LQ093,Are there any leave blackout periods?,The supplied policy corpus does not specify any leave blackout periods.,,leave,unanswerable
+LQ094,Can I take leave during my notice period after resigning?,The supplied policy corpus does not specify leave rules during a notice period.,,leave,unanswerable
+LQ095,Is adoption leave available?,The supplied policy corpus does not specify adoption leave.,,leave,unanswerable
+LQ096,How do I apply for leave in the HR portal step by step?,The supplied policy corpus does not specify step-by-step portal instructions. It only states that emergency leave must be recorded in the HR portal within 2 working days after returning.,,leave,unanswerable
+LQ097,Can I combine annual leave and sick leave back to back?,The supplied policy corpus does not specify rules for combining different leave types.,,leave,unanswerable
+LQ098,How many total leave days do I get per year across annual and sick leave?,"The policy provides 18 days of annual paid leave and 10 days of sick leave per calendar year for full-time employees, a combined 28 days. Casual leave is not specified.",HR-004; HR-005,leave,answerable
+LQ099,Do contract employees get the same leave as full-time employees?,The supplied policy corpus does not specify leave entitlement for contract employees.,,leave,unanswerable
+LQ100,Can leave be taken in half-day units?,The supplied policy corpus does not specify whether half-day leave is available.,,leave,unanswerable

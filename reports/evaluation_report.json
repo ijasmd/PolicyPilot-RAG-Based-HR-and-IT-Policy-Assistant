@@ -1,0 +1,302 @@
+{
+  "total_test_queries": 20,
+  "answerable_queries": 13,
+  "unanswerable_queries": 7,
+  "retrieval_metrics": {
+    "mrr": 0.9231,
+    "recall_at_1": 0.9231,
+    "recall_at_3": 0.9231
+  },
+  "abstention_metrics": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "confusion_counts": {
+      "true_positive": 7,
+      "false_positive": 0,
+      "true_negative": 13,
+      "false_negative": 0
+    }
+  },
+  "citation_metrics": {
+    "citation_accuracy": 0.9231,
+    "correct_citations": 12
+  },
+  "overall_system_accuracy": 0.95,
+  "detailed_results": [
+    {
+      "question": "How early should planned leave be submitted?",
+      "expected_type": "answerable",
+      "expected_policy_id": "HR-001",
+      "actual_status": "ANSWERED",
+      "actual_intent": "leave",
+      "retrieval_rank": 1,
+      "citations": [
+        "HR-001"
+      ],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 3.56
+    },
+    {
+      "question": "What should I do if I suspect an API key was exposed?",
+      "expected_type": "answerable",
+      "expected_policy_id": "IT-001",
+      "actual_status": "ANSWERED",
+      "actual_intent": "credentials",
+      "retrieval_rank": 1,
+      "citations": [
+        "IT-001"
+      ],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 3.17
+    },
+    {
+      "question": "Can I copy confidential files to personal storage while working remotely?",
+      "expected_type": "answerable",
+      "expected_policy_id": "HR-002",
+      "actual_status": "ANSWERED",
+      "actual_intent": "remote_work",
+      "retrieval_rank": 1,
+      "citations": [
+        "HR-002",
+        "IT-002"
+      ],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 2.15
+    },
+    {
+      "question": "What details should be included in an incident report?",
+      "expected_type": "answerable",
+      "expected_policy_id": "IT-003",
+      "actual_status": "ANSWERED",
+      "actual_intent": "incidents",
+      "retrieval_rank": 1,
+      "citations": [
+        "IT-003",
+        "IT-001"
+      ],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 2.03
+    },
+    {
+      "question": "What is the company's maternity leave entitlement?",
+      "expected_type": "unanswerable",
+      "expected_policy_id": null,
+      "actual_status": "ABSTAINED",
+      "actual_intent": "unknown",
+      "retrieval_rank": null,
+      "citations": [],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 2.28
+    },
+    {
+      "question": "What is the annual reimbursement cap?",
+      "expected_type": "unanswerable",
+      "expected_policy_id": null,
+      "actual_status": "ABSTAINED",
+      "actual_intent": "unknown",
+      "retrieval_rank": null,
+      "citations": [],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 2.33
+    },
+    {
+      "question": "What should I do if I lose a device?",
+      "expected_type": "answerable",
+      "expected_policy_id": "IT-002",
+      "actual_status": "ANSWERED",
+      "actual_intent": "device_security",
+      "retrieval_rank": 1,
+      "citations": [
+        "IT-002",
+        "IT-002"
+      ],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 3.06
+    },
+    {
+      "question": "Can I purchase equipment before approval?",
+      "expected_type": "answerable",
+      "expected_policy_id": "HR-003",
+      "actual_status": "ANSWERED",
+      "actual_intent": "expenses",
+      "retrieval_rank": 1,
+      "citations": [
+        "HR-003",
+        "HR-001"
+      ],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 2.88
+    },
+    {
+      "question": "What is the exact legal notice period for resignation?",
+      "expected_type": "unanswerable",
+      "expected_policy_id": null,
+      "actual_status": "ABSTAINED",
+      "actual_intent": "unknown",
+      "retrieval_rank": null,
+      "citations": [],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 3.34
+    },
+    {
+      "question": "Should I guess the cause of an IT incident before evidence is available?",
+      "expected_type": "answerable",
+      "expected_policy_id": "IT-003",
+      "actual_status": "ANSWERED",
+      "actual_intent": "incidents",
+      "retrieval_rank": 1,
+      "citations": [
+        "IT-003"
+      ],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 3.4
+    },
+    {
+      "question": "How many days notice do I need for taking planned vacation days?",
+      "expected_type": "answerable",
+      "expected_policy_id": "HR-001",
+      "actual_status": "ANSWERED",
+      "actual_intent": "leave",
+      "retrieval_rank": 1,
+      "citations": [
+        "HR-001",
+        "HR-001"
+      ],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 2.75
+    },
+    {
+      "question": "Can I store database secrets directly in Git repository code?",
+      "expected_type": "answerable",
+      "expected_policy_id": "IT-001",
+      "actual_status": "ANSWERED",
+      "actual_intent": "credentials",
+      "retrieval_rank": 1,
+      "citations": [
+        "IT-001"
+      ],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 2.49
+    },
+    {
+      "question": "Are personal hard drives allowed for backing up work files?",
+      "expected_type": "answerable",
+      "expected_policy_id": "HR-002",
+      "actual_status": "ANSWERED",
+      "actual_intent": "remote_work",
+      "retrieval_rank": 1,
+      "citations": [
+        "HR-002",
+        "IT-002"
+      ],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 2.45
+    },
+    {
+      "question": "Is it okay to leave my laptop unlocked while getting coffee?",
+      "expected_type": "answerable",
+      "expected_policy_id": "IT-002",
+      "actual_status": "ANSWERED",
+      "actual_intent": "leave",
+      "retrieval_rank": null,
+      "citations": [
+        "HR-001",
+        "HR-001"
+      ],
+      "citation_correct": false,
+      "abstain_correct": true,
+      "latency_ms": 2.22
+    },
+    {
+      "question": "Who should be alerted when an urgent IT outage occurs?",
+      "expected_type": "answerable",
+      "expected_policy_id": "IT-003",
+      "actual_status": "ANSWERED",
+      "actual_intent": "incidents",
+      "retrieval_rank": 1,
+      "citations": [
+        "IT-003"
+      ],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 2.34
+    },
+    {
+      "question": "What items must be included in a purchase reimbursement request?",
+      "expected_type": "answerable",
+      "expected_policy_id": "HR-003",
+      "actual_status": "ANSWERED",
+      "actual_intent": "expenses",
+      "retrieval_rank": 1,
+      "citations": [
+        "HR-003",
+        "HR-003"
+      ],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 2.78
+    },
+    {
+      "question": "What is the policy regarding paternity leave for new fathers?",
+      "expected_type": "unanswerable",
+      "expected_policy_id": null,
+      "actual_status": "ABSTAINED",
+      "actual_intent": "unknown",
+      "retrieval_rank": null,
+      "citations": [],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 3.02
+    },
+    {
+      "question": "How much gym membership reimbursement can I claim each month?",
+      "expected_type": "unanswerable",
+      "expected_policy_id": null,
+      "actual_status": "ABSTAINED",
+      "actual_intent": "unknown",
+      "retrieval_rank": null,
+      "citations": [],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 2.77
+    },
+    {
+      "question": "Can I trade company stock during quarterly blackout periods?",
+      "expected_type": "unanswerable",
+      "expected_policy_id": null,
+      "actual_status": "ABSTAINED",
+      "actual_intent": "unknown",
+      "retrieval_rank": null,
+      "citations": [],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 4.05
+    },
+    {
+      "question": "What health insurance plans are available for dependents?",
+      "expected_type": "unanswerable",
+      "expected_policy_id": null,
+      "actual_status": "ABSTAINED",
+      "actual_intent": "unknown",
+      "retrieval_rank": null,
+      "citations": [],
+      "citation_correct": true,
+      "abstain_correct": true,
+      "latency_ms": 3.13
+    }
+  ]
+}

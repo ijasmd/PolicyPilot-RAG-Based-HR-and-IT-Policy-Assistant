@@ -1,0 +1,1 @@
+Synthetic HR and IT policy corpus for RAG. Use for chunking, embeddings, vector retrieval, grounded answers, citations, abstention, and evaluation. The policy text is fictional and must not be treated as real policy or legal advice.
