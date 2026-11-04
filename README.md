@@ -7,7 +7,7 @@
 
 > **AI/ML Internship Capstone Project — Team 2**  
 > **Team Members:** Ijas, Mano, Rahul, Rohith  
-> **Mentor Guide:** AI/ML Internship Capstone Playbook  
+> **Mentor Guide:** Janavi 
 
 ---
 
